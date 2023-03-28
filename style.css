@@ -172,3 +172,103 @@ body {
 .tops__increase-price {
   color: #4FC091;
 }
+
+/* Tables */
+
+.tables {}
+
+
+.tables__title {
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.125rem;
+  line-height: 4.25rem;
+  color: #343030;
+  margin-top: 4.375rem;
+  margin-bottom: 3.75rem;
+}
+
+.tables__table {
+  display: flex;
+  flex-direction: column;
+}
+
+.table__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.table__item-number {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+  color: #4D4E56;
+  padding: 2.375rem 0;
+}
+
+.table__item-name {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+  color: #4D4E56;
+  padding: 2.375rem 0;
+}
+
+.table__item-price {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+  color: #4D4E56;
+  padding: 2.375rem 0;
+}
+
+.table__item-day {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+  color: #4FC091;
+  padding: 2.375rem 0;
+}
+
+.table__item-clock {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+  color: #4D4E56;
+  padding: 2.375rem 0;
+}
+
+.table__item-allprice {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.125rem;
+  line-height: 2.875rem;
+  color: #4D4E56;
+  padding: 2.375rem 0;
+}
+
+.table__item-day-red {
+  color: #C04F4F;
+}
+
+span {
+  margin-left: 1rem;
+  color: #9D9D9D;
+}
